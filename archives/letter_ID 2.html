@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>두 번째 뉴스레터 테스트</title>
+    <style>
+        /* 기본 설정 */
+        body { background-color: #f4f4f4; margin: 0; padding: 40px 0; font-family: 'Apple SD Gothic Neo', sans-serif; display: flex; justify-content: center; }
+        .container { width: 100%; max-width: 600px; }
+        
+        /* 카드 디자인 (각 섹션을 박스로 만듦) */
+        .card { background: #fff; padding: 30px; margin-bottom: 20px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        
+        /* 헤더 & 인트로 */
+        .header-date { color: #888; font-size: 13px; margin-bottom: 5px; }
+        .header-title { font-size: 26px; font-weight: bold; margin: 0 0 20px 0; color: #222; }
+        .intro-text { line-height: 1.6; color: #555; border-left: 4px solid #000; padding-left: 15px; }
+
+        /* 소식 섹션 디자인 */
+        .section-title { font-size: 20px; font-weight: bold; margin-top: 0; color: #333; }
+        .section-img { width: 100%; border-radius: 8px; margin: 15px 0; }
+        .section-desc { line-height: 1.6; color: #444; font-size: 15px; }
+        .divider { border-top: 1px dashed #ddd; margin: 20px 0; }
+
+        /* 지난 레터 리스트 (푸터) */
+        .archive-box { background-color: #eaeaea; padding: 30px; border-radius: 12px; text-align: center; }
+        .archive-title { font-size: 16px; font-weight: bold; margin-bottom: 15px; color: #555; }
+        .archive-list { list-style: none; padding: 0; text-align: left; }
+        .archive-list li { margin-bottom: 10px; border-bottom: 1px solid #ddd; padding-bottom: 5px; }
+        .archive-list a { text-decoration: none; color: #333; font-size: 14px; display: block; }
+        .archive-list a:hover { color: #0056b3; }
+        .archive-date { color: #888; font-size: 12px; margin-right: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="card">
+            <div class="header-date">2026.01.20</div>
+            <h1 class="header-title">두 번째 뉴스레터 테스트</h1>
+            <div class="intro-text">
+                테스트용으로 만들어봅니당
+            </div>
+        </div>
+
+        
+        <div class="card">
+            <h2 class="section-title">01. 2-첫 번째 소식 제목</h2>
+            <img src="https://file.two-rabbit.co.kr/editor/202601/14/fe50453d425463ef6017fbd6000b904d.jpg" class="section-img">
+            <p class="section-desc"><빌런즈>는 초정밀 위조지폐 ‘슈퍼노트’를 둘러싼 악인들의 피 튀기는 충돌과 대결을 그린 슈퍼범죄액션인데요. 범죄계 소시오패스라 불리는 제이(유지태)의 독보적인 분위기와 복잡한 감정을 세밀하게 풀어낸 한수현(이민정)의 서사로 압도적 흡인력을 선보입니다.</p>
+        </div>
+        
+
+        
+        <div class="card">
+            <h2 class="section-title">02. 2-두 번째 소식 제목</h2>
+            <img src="https://file.two-rabbit.co.kr/editor/202601/16/c7dcba3125811da0ec727f5b35c5d9d6.jpg" class="section-img">
+            <p class="section-desc"><빌런즈>는 티빙 공개와 동시에 HBO Max를 통해 아시아 태평양 17개 국가 및 지역, 디즈니+ 재팬을 통해 일본에서도 스트리밍되며 글로벌 시청자들과 만나고 있습니다.</p>
+        </div>
+        
+
+        <div class="archive-box">
+            <div class="archive-title">📮 지난 뉴스레터 모아보기</div>
+            <ul class="archive-list">
+                
+                <li>
+                    <a href="letter_ID 2.html">
+                        <span class="archive-date">2026.01.20</span>
+                        두 번째 뉴스레터 테스트
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="letter_ID 1.html">
+                        <span class="archive-date">2026.01.16</span>
+                        첫 번째 뉴스레터 테스트
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
