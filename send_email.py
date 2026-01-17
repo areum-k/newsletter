@@ -9,8 +9,8 @@ from datetime import datetime
 # ==========================================
 # 👇 여기만 본인 정보로 수정하세요!
 # ==========================================
-MY_EMAIL = "내이메일@gmail.com"        # 보내는 사람
-MY_PASSWORD = "abcd efgh ijkl mnop"   # 앱 비밀번호 16자리
+MY_EMAIL = "love.hawaii.kim@gmail.com"        # 보내는 사람
+MY_PASSWORD = "laga lwxj picx oyfp"   # 앱 비밀번호 16자리
 # ==========================================
 
 def get_subscribers():
