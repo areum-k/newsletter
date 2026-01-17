@@ -79,7 +79,7 @@
             <ul class="archive-list">
                 {% for item in all_letters | reverse %}
                 <li>
-                    <a href="{% if folder_name == '' %}{{ item.folder_name }}/{% endif %}letter_{{ item.id }}.html">
+                    <a href="https://areum-k.github.io/newsletter/archives/letter_{{ item.id }}.html" target="_blank">
                         <span class="archive-date">{{ item.date }}</span>
                         {{ item.title }}
                     </a>
